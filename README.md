@@ -1,2 +1,2 @@
 # PhiloChat
-assd.
+PhiloChat is a mobile app that lets you chat with some of the greatest philosophers of all time - Descartes, Aristotle, Nietzsche, and Machiavelli. With PhiloChat, you can choose which philosopher you want to talk to and engage in a stimulating conversation with them. The app uses the ChatGPT API to generate responses, so you can expect thought-provoking answers to your questions. Whether you're a philosophy student, a curious thinker, or just looking for some intellectual stimulation, PhiloChat is the perfect app for you!

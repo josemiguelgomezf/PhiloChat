@@ -1,74 +1,34 @@
-# PhiloChat
+# PhiloChat 
 
-PhiloChat is a mobile app that lets you chat with some of the greatest philosophers of all time - Descartes, Aristotle, Nietzsche, and Machiavelli. With PhiloChat, you can choose which philosopher you want to talk to and engage in a stimulating conversation with them. The app uses the ChatGPT API to generate responses, so you can expect thought-provoking answers to your questions. Whether you're a philosophy student, a curious thinker, or just looking for some intellectual stimulation, PhiloChat is the perfect app for you! 
+Es una aplicación móvil que te permite chatear con algunos de los filósofos más grandes de todos los tiempos: Descartes, Aristóteles, Nietzsche y Maquiavelo. Con PhiloChat, puedes elegir con qué filósofo quieres hablar y entablar una conversación estimulante con él. La aplicación utiliza la API de ChatGPT para generar respuestas, por lo que puedes esperar respuestas reflexivas a tus preguntas. Tanto si eres un estudiante de filosofía, un pensador curioso o simplemente buscas estimulación intelectual, PhiloChat es la aplicación perfecta para ti.
 
-## Getting Started with Create React App
+# Descripción del proyecto:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+PhiloChat está escrito en Python y utiliza las siguientes bibliotecas:
 
-## Available Scripts
+* Django: Para el framework web.
+* ChatGPT: Para generar respuestas a las preguntas de los usuarios.
+* Channels: Para la comunicación en tiempo real.
 
-In the project directory, you can run:
+# Cómo funciona:
 
-### `npm start`
+PhiloChat funciona de la siguiente manera:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. El usuario abre la aplicación y selecciona a qué filósofo quiere hablar.
+2. El usuario escribe una pregunta y la envía al filósofo.
+3. El filósofo genera una respuesta a la pregunta y la envía al usuario.
+4. El usuario puede continuar la conversación con el filósofo haciendo más preguntas.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Ejemplo de uso:
 
-### `npm test`
+```python
+# El usuario abre la aplicación y selecciona a Descartes.
+# El usuario escribe la siguiente pregunta: ¿Cuál es el sentido de la vida?
+# Descartes responde: El sentido de la vida es encontrar la verdad.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# El usuario puede continuar la conversación con Descartes haciendo más preguntas, como: ¿Cómo sé que existe? ¿Cómo puedo encontrar la verdad?
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Conclusión:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+PhiloChat es una aplicación móvil innovadora que permite a los usuarios chatear con algunos de los filósofos más grandes de todos los tiempos. La aplicación utiliza la API de ChatGPT para generar respuestas reflexivas a las preguntas de los usuarios. PhiloChat es una excelente herramienta para aprender sobre filosofía y para reflexionar sobre las grandes preguntas de la vida.
